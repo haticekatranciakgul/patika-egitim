@@ -1,0 +1,40 @@
+body {
+    background-color: #bfa381;
+    font-family: 'Times New Roman', Times, serif;
+    
+}
+header nav h2 {
+    color: #6e4d40;
+    font-family: 'Pushster', cursive;
+}
+.description li {
+    list-style: none;
+    display: inline;
+    padding: 5px ;
+}
+.menu {
+    color: white;
+    border-radius: 10px;
+    background-color: brown;
+    padding: 2px;
+    margin: 18px;
+
+}
+article img {
+    width: 420px;
+    height: 350px;
+}
+.textDecoration span {
+    text-decoration-line: underline;
+    text-decoration-color: black;
+   
+
+}
+.roboto {
+    font-family: 'Roboto Mono', monospace;
+    float: right;
+    position: relative;
+    font-size: 18px;
+    font-weight: 700;
+}
+
