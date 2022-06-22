@@ -1,0 +1,31 @@
+body {
+    font-family: Times;
+}
+table {
+    width: 90%;
+}
+table tr td {
+    border-color: white;
+    border-width: 2px;
+}
+.bg-gray {
+    background-color: #EEEEEE;
+}
+table tr {
+    font-size:medium;
+} 
+p {
+    font-size: small;
+}
+span {
+    font-family: Times;
+    font-weight:400;
+}
+a {
+    font-family: Times;
+    font-weight:400;
+    font-size: small;
+}
+.center {
+    text-align: -webkit-center;
+}
