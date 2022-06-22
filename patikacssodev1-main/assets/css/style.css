@@ -1,0 +1,74 @@
+body {
+    text-align: center;
+}
+header nav h1 {
+    text-align: center;
+    color: blueviolet;
+    /* font-family: 'Licorice', cursive; */
+}
+.listStyleDiv {
+    text-align: center;
+
+}
+.listStyle {
+   padding-left: 0;
+    list-style: none;
+    display: inline-flex ;
+    
+}
+.listStyle a span{
+    color: blueviolet;
+}
+.textCenter {
+    text-align: center;
+}
+.textCenter h3 {
+    color: violet;
+    font-weight: bolder;
+}
+/* .textCenter > h3 +ul > li {
+    list-style: none;
+} */
+.textCenter li {
+    text-decoration: none;
+}
+.textCenter span {
+    margin: 50px;
+}
+.textDecoration {
+    list-style: none;
+}
+.textDecoration li {
+    margin: 10px;
+}
+.textDecoration span:nth-last-of-type(2) {
+    text-decoration: line-through;
+}
+.textDecoration li:nth-child(4) span{
+    background-color: #ff0000a8;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 20px;
+}
+.listStyleP {
+    list-style-position: inside;
+
+}
+.colorYellow {
+    color: #cfc221;
+}
+.product  {
+    list-style: decimal;
+}
+.product img {
+    width: 500px;
+    height: auto;
+}
+.product li {
+    padding-bottom: 5%;
+
+}
+.textLeft {
+    text-align: left;
+    margin: 0px 300px;
+}
