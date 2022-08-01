@@ -1,0 +1,188 @@
+.navbarbg {
+  height: 70px;
+  background-color: #fff;
+}
+.navbar-brand{
+  padding-left: 2%;
+}
+.linkedinlogocolor {
+  color: #0a66c2;
+  font-size: 2.4rem;
+
+}
+
+.container.main-content{
+  margin-top: 75px;
+}
+input.searche {
+  height: 36px;
+  max-width: 500px;
+  background-color: #eef3f8;
+  border: 0;
+}
+
+input.searche::placeholder {
+  font-size: 14px;
+  color: gray;
+  background-image: url("../assets/search-solid.svg");
+  background-repeat: no-repeat;
+  background-size: 8%;
+  background-position: 0% 50%;
+  padding-left: 23px;
+}
+
+.body {
+  background-color: #f3f2ef;
+}
+
+.menutext {
+  font-size: 13px;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: 700;
+  color: gray;
+  margin-top: 4px;
+}
+
+.mediatext {
+  font-weight: 500;
+}
+
+i {
+  color: gray;
+  margin-top: 8px;
+}
+
+input.content {
+  border-radius: 40px;
+  height: 45px;
+}
+
+input.content::placeholder {
+  font-weight: bolder;
+  font-size: 14px;
+  font-family: Arial, Helvetica, sans-serif;
+  background-image: url("../assets/edit-regular.svg");
+  background-repeat: no-repeat;
+  background-size: auto;
+  padding-left: 25px;
+}
+
+div.card {
+  border-radius: 10px;
+}
+
+.header {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 16px;
+  font-weight: bolder;
+}
+
+.view {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-size: 12px;
+  font-weight: bold;
+  color: #5f5f5f;
+}
+
+.categories {
+  font-size: 13px;
+  font-weight: bold;
+  color: #0a66c2;
+}
+
+li {
+  font-size: 14px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+}
+
+.link {
+  font-size: 12px;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  color: #5f5f5f;
+}
+
+
+.ref i {
+  display: flex;
+  align-items: center;
+  margin: 0;
+}
+
+.ref i span {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  font-size: 1rem;
+}
+
+.ref:hover i {
+  color: white;
+}
+
+button.follow {
+  font-size: .75rem;
+}
+
+.postphoto {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+}
+
+.posttext {
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen,
+    Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.nav-link-iw {
+  display: flex !important;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-link-iw:hover{
+  color: black;
+}
+
+.nav-link-iw:hover .menutext {
+  color: black;
+}
+
+.main-content {
+  margin-top: 100px;
+}
+
+.navbar-nav {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.nav-link-iw::before {
+  width: 25px;
+  height: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.nav-link-iw img {
+  width: 30px;
+  height: 30px;
+  border-radius: 60%;
+  margin-top: 3px;
+}
+.leftsidecard {
+  background-image: url(https://thumbor.forbes.com/thumbor/fit-in/1200x0/filters%3Aformat%28jpg%29/https%3A%2F%2Fblogs-images.forbes.com%2Falejandrocremades%2Ffiles%2F2018%2F12%2Fbusiness-3605367_1920-1200x741.jpg);
+  height: 53px;
+}
+.leftsidecard img {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  border: 2px solid white;
+}
